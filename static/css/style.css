@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: none;
+}
+
+button a {
+    text-decoration: none;
+}
+
+
+.s-label {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    display: none;
+}   
+
+
+
+/* Style for terms and conditions */
+.s-tyc {
+    color: rgba(0, 0, 0, 0.625);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+  }
+
+#container {
+    margin: 20vh auto;
+    max-width: 80%;
+    max-height: 90vh;
+    padding: 10vh 6vh 5vh;
+    border-radius: 1vh;
+
+}
+
+.container-fluid{
+    position: relative;
+    z-index: 1;
+}
+
+.filter {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.759);
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+    #container {
+        min-width: 95%;
+        margin: 20vh auto;
+        height: auto;
+        padding: 10vh 6vh 5vh;
+        border-radius: 1vh;
+        overflow: hidden;
+    }
+    
+  }
+
+  @media (max-width: 767px) {
+    #video-background {
+      display: none;
+    }
+  }
+  
+
+
