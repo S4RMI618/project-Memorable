@@ -1,0 +1,12 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#price {
+    font-size: 5vh;
+    text-align: center;
+    font-weight: bold;
+
+}

@@ -40,6 +40,26 @@ p {
   background-color: var(--rosa-opaco);
 }
 
-.icons {
+.btn:hover {
+  background-color: var(--rosa-opaco);
+}
+
+.icons-header {
   color: var(--rosa-opaco);
+}
+
+.icons {
+  color: var(--morado);
+}
+
+#contenedor p{
+  color: #222;
+  display: inline-block;
+  padding: .5rem .8rem;
+}
+
+#contenedor p:focus {
+  outline: none;
+  border: 1px solid var(--rosa-opaco);
+  border-radius: 5px;
 }
