@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "Hello Valentina Regular";
-    src: url("/static/fonts/Hello\ Valentina.ttf") format("truetype");
+    src: url("/static/fonts/DancingScript-Bold.ttf") format("truetype");
   }
 
 @font-face {
@@ -16,12 +16,13 @@ src: url("/static/fonts/Fragmentcore.otf") format("truetype");
 
 body {
     font-family: "Fragment Core Roman", sans-serif;
+    font-size: 2.2vh;
     color: var(--morado);
 }
 
 .title {
     font-family: "Hello Valentina Regular", sans-serif;
-    
+    font-size: 6vh;
     color: var(--morado);
 }
 
