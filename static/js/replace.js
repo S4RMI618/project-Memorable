@@ -1,5 +1,3 @@
-name_bottle = document.getElementById("name-bottle").innerHTML;
-
 function quitarTildes(frase) {
     // Crea un objeto con los caracteres a reemplazar y sus correspondientes sin tilde.
     const caracteres = {
@@ -18,10 +16,9 @@ function quitarTildes(frase) {
     return frase.replace(/[áéíóúÁÉÍÓÚ]/g, caracter => caracteres[caracter]);
 }
 
-name_with_ticks = name_bottle;
-
-name_without_ticks = quitarTildes(name_bottle);
-
+var name_bottle = document.getElementById("name-bottle").innerHTML;
+var name_with_ticks = name_bottle;
+var name_without_ticks = quitarTildes(name_bottle);
 document.getElementById("name-bottle").innerHTML = name_without_ticks;
 
 function takeNumber() {
