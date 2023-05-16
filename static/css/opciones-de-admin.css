@@ -1,9 +1,8 @@
 #dot {
     box-sizing: border-box;
     position: absolute;
-    width: 8vh;
-    height: 8vh;
+    width: 7vh;
+    height: 7vh;
     background: #3E081B;
-    border: 1px solid #000000;
     border-radius: 100px;
 }

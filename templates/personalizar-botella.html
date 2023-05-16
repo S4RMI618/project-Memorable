@@ -90,7 +90,7 @@
 
             <div class="row">
               <!-- SELECT FOR KIND OF WIND -->
-                <div class="col-12 col-lg-4 col-md-6 d-flex flex-column justify-content-center">
+                <div class="col-12 col-lg-4 col-md-6 d-flex flex-column justify-content-center mb-3 mb-md-0">
                   <div class="input-group">
                     <label class="input-group-text bg" for="inputGroupSelect01">Tipo de vino</label>
                     <select class="form-select" id="inputGroupSelect01">
@@ -142,9 +142,18 @@
                   </div>
                 </div>
             </div>
+            <!-- BUTTON TEXT AREA -->
+            <div class="row">
+              <div class="col-12 d-flex flex-column align-items-center justify-content-center mt-4 ">
+                <button id="boton" class="btn btn-outline-secondary col-6">Toca aquí si quieres añadir tus comentarios adicionales</button>
+                <div id="cuadroTexto" style="display: none;">
+                  <textarea id="texto" class="text-area"></textarea>
+                </div>
+              </div>
+            </div>
             <!-- PRICE -->
             <div class="row">
-              <div class="col-6 col-md-12 my-md-5 text-center">
+              <div class="col-12 col-md-12 my-md-3 text-center">
                 <p id="price">$ <span id="precio" class="col-12">65 000</span> COP</p>
               </div>
             </div>
